@@ -1,0 +1,24 @@
+export JAVA_HOME=$(/usr/libexec/java_home)
+export ANDROID_HOME=/Users/omaid/Library/Android/sdk
+export PATH=$PATH:/usr/local/git/bin:/usr/local/bin:
+export PATH=$PATH:$ANDROID_HOME/platform-tools i
+export PATH=$PATH:$ANDROID_HOME/tools
+export PATH=$PATH:$ANDROID_HOME/tools/bin
+export PATH=$PATH:$ANDROID_HOME/emulator
+export MAVEN_HOME=/opt/homebrew/bin/mvn
+
+
+{
+  "appium:app": "/Users/omaid/IdeaProjects/FirstAppium/src/test/resources/General-Store.apk",
+  "appium:deviceName": "Pixel6",
+  "platformName": "android",
+  "appium:automationName": "UiAutomator2"
+}
+
+{
+  "app": "/Users/omaid/Library/Developer/Xcode/DerivedData/\" +                 \"UIKitCatalog-gjfyminebzakdfbsypgwrliszxwi/Build/Products/\" +                 \"Debug-iphonesimulator/UIKitCatalog.app",
+  "automationName": "XCUITest",
+  "deviceName": "iPhone 14 Pro",
+  "platformVersion": "16.4",
+  "platformName": "IOS"
+}
